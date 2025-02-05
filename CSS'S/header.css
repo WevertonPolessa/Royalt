@@ -33,11 +33,13 @@ header {
 #nav-links button {
     background-color: var(--laranja-color);
     padding: 15px 25px;
-    border-radius: 7px;
+    border-radius: 10px;
     color: var(--branco-color);
     font-family: "inter", sans-serif;
     border: none;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #banner {
@@ -63,7 +65,8 @@ header {
     }
 
     #nav-links button {
-        padding: 10px 15px;
+        padding: 15px 20px;
+        font-size: 16px ;
     }
 
     #banner {
