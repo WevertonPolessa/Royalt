@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #000;
+    --laranja-color: #F60;
+    --branco-color: #FFF;
+    --fundo-color: #1D1C1C;  
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "inter", sans-serif;
+}
