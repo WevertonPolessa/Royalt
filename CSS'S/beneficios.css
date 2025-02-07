@@ -1,0 +1,85 @@
+#beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benef-h1 h1 {
+    color: var(--branco-color);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.beneficio {
+    border: 1px solid var(--laranja-color);
+    width: 380px;
+    height: 279px;
+    padding: 40px;
+}
+
+.beneficio h1{
+    font-size: 30px;
+    color: var(--laranja-color);
+    margin-bottom: 20px;
+}
+
+.beneficio p {
+    font-size: 20px;
+    color: var(--branco-color);
+    font-weight: 200;
+}
+
+#my-moto {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 30px;
+}
+#my-moto button {
+    background-color: var(--laranja-color);
+    padding: 18px 30px;
+    border-radius: 7px;
+    color: var(--branco-color);
+    font-family: "inter", sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media (width <= 450px) {
+    #benef-h1 h1 {
+        color: var(--branco-color);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+    .beneficio p {
+        font-size: 15px;
+        color: var(--branco-color);
+        font-weight: 200;
+    }
+    
+
+    #beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .beneficio {
+        border: 1px solid var(--laranja-color);
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
+
+}
