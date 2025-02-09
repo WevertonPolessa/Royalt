@@ -50,11 +50,17 @@
     font-weight: 600;
 }
 
+#my-moto button:hover {
+    background-color:rgb(151, 74, 19);
+}
+
+
+
 
 @media (width <= 450px) {
-    #benef-h1 h1 {
+    .benef-h1 h1 {
         color: var(--branco-color);
-        font-size: 20px;
+        font-size: 30px;
         display: flex;
         justify-content: center;
         margin-bottom: 35px;

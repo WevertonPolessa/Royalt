@@ -1,0 +1,132 @@
+#planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#planos-h1 h1 {
+    color: var(--laranja-color);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#planos-h1 p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.planos-disp {
+    width: 400px;
+    height: 422px;
+    background-color: var(--branco-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+/*________________________________________________________*/
+
+.plano-pequeno {
+    color: rgb(69, 69, 69);
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.sub-titulo {
+    font-size: 12px;
+    color: rgb(69, 69, 69);
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 7px;
+}
+
+.check p {
+    font-size: 13px;
+}
+.check img {
+    max-width: 15px;
+}
+
+.preco {
+    color: rgb(59, 160, 255);
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.valor {
+    color: var(--laranja-color);
+    font-size: 40px;
+}
+
+.valor span {
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 20pX;
+}
+
+.btn-alugar {
+    display: flex;
+    justify-content: center
+}
+
+.alugar-btn {
+    width: 300px;
+    background-color: var(--laranja-color);
+    padding: 10px 10px;
+    border-radius: 7px;
+    font-family: "inter", sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--background-color);
+}
+
+@media (width <= 450px) {
+    #planos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .planos-disp {
+        width: 350px;
+        height: 422px;
+        background-color: var(--branco-color);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .alugar-btn {
+        margin-top: 5px;
+    }
+
+    #planos-h1 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+

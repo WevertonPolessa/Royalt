@@ -17,3 +17,7 @@ body {
     background-color: var(--background-color);
     font-family: "inter", sans-serif;
 }
+
+body a {
+     text-decoration: none;
+}
