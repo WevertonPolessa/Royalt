@@ -29,7 +29,37 @@ footer {
 #infos a {
     color: var(--laranja-color);
     font-size: 10px;
-}   
+} 
+
+#creditos {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#creditos {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(23, 23, 23);
+    padding: 10px;
+    font-size: 12px;
+}
+
+#creditos p {
+    display: flex;
+    gap: 5px;
+}
+
+#creditos a {
+    color: var(--laranja-color) ;
+    display: flex;
+    align-items: center;
+
+}
 
 #direito br {
     display: none;
