@@ -19,6 +19,9 @@
     margin-bottom: 30px;
     font-size: 20px;
 }
+#royalty-flex {
+    margin-bottom: 50px;
+}
 
 .planos-disp {
     width: 400px;
@@ -44,7 +47,7 @@
     font-size: 12px;
     color: rgb(69, 69, 69);
     margin-top: 5px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .check {
